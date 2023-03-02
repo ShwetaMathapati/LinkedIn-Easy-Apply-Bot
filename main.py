@@ -127,6 +127,3 @@ if __name__ == '__main__':
     bot.security_check()
     bot.start_applying()
 
-
-
-
