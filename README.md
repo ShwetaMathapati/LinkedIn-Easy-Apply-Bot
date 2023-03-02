@@ -1,3 +1,5 @@
+********************TESTED REPO. AUTOMATION WORKS********************
+
 # LinkedIn Easy Apply Bot
 Automatically apply to LinkedIn Easy Apply jobs. This bot answers the application questions as well!
 
