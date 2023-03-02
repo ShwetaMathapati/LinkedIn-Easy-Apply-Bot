@@ -1,46 +1,42 @@
-email: email@domain.com
-password: yourpassword
+email: test@gmail.com
+password: testpassword
 
 disableAntiLock: False
 
 remote: False
 
 experienceLevel:
- internship: False
- entry: True
- associate: False
- mid-senior level: False
+ internship: True
+ entry: False
+ associate: True
+ mid-senior level: True
  director: False
  executive: False
  
 jobTypes:
  full-time: True
- contract: False
- part-time: False
- temporary: False
- internship: False
- other: False
- volunteer: False
+ contract: True
+ part-time: True
+ temporary: True
+ internship: True
+ other: True
+ volunteer: True
  
 date:
  all time: True
  month: False
- week: False
+ week: True
  24 hours: False
  
 positions:
- #- First position
- #- A second position
- #- A third position
- #- ...
-locations:
- #- First location
- #- A second location
- #- A third location
- #- ...
-distance: 25
+ - Associate
 
-outputFileDirectory: C:\Users\myDirectory\
+locations:
+ - Bangalore Urban, Karnataka, India
+
+distance: 0
+
+outputFileDirectory: C:\Users\DELL\Desktop
 
 companyBlacklist:
  #- company
@@ -51,7 +47,7 @@ titleBlacklist:
  #- word2
 
 uploads:
- resume: C:\Users\myDirectory\Resume.pdf
+ resume: C:\Users\DELL\Desktop\Resume.pdf
  # Cover letter is optional
  #coverLetter: C:\Users\myDirectory\CoverLettter.pdf
 
@@ -61,7 +57,7 @@ uploads:
 # ------------ Additional parameters: checkboxes ---------------
 checkboxes:
  # Do you have a valid driver's license? (yes/no checkbox)
- driversLicence: True
+ driversLicence: False
  # Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? (yes/no checkbox)
  # This is relative to the location and your citizenship applying above, and same with legallyAuthorized.
  requireVisa: False
@@ -73,19 +69,14 @@ checkboxes:
  commute: True
  # Have you completed the following level of education: DEGREE TYPE? (yes/no checkbox)
  degreeCompleted:
-  - High School Diploma
-  - Bachelor's Degree
-  # - Associate's Degree
-  # - Master's Degree
-  # - Master of Business Administration
-  # - Doctor of Philosophy
-  # - Doctor of Medicine
-  # - Doctor of Law
+  High School Diploma: True
+  Bachelor's Degree: True
+
  # Are you willing to undergo a background check, in accordance with local law/regulations?
  backgroundCheck: True
 
 # ------------ Additional parameters: univeristyGpa ---------------
-universityGpa: 4.0
+universityGpa: 3.0
 
 # ------------ Additional parameters: languages ---------------
 languages:
@@ -97,13 +88,13 @@ languages:
 industry:
  # normal ones
  Accounting/Auditing: 0
- Administrative : 0
- Advertising : 0
+ Administrative : 2
+ Advertising : 2
  Analyst : 0
  Art/Creative: 0
- Business Development: 0
+ Business Development: 1
  Consulting: 0
- Customer Service: 0
+ Customer Service: 3
  Distribution Design: 0
  Education: 0
  Engineering: 0
@@ -111,11 +102,11 @@ industry:
  General Business: 0
  Health Care Provider: 0
  Human Resources: 0
- Information Technology: 0
+ Information Technology: 1
  Legal: 0
  Management: 0
  Manufacturing: 0
- Marketing: 0
+ Marketing: 2
  Public Relations: 0
  Purchasing: 0
  Product Management: 0
@@ -147,21 +138,21 @@ technology:
  default: 0
 # ------------ Additional parameters: personal info ---------------
 personalInfo:
- First Name: FirstName
- Last Name: LastName
- Phone Country Code: Canada (+1) # See linkedin for your country code, must be exact
- Mobile Phone Number: 1234567890
- Street address: 123 Fake Street
- City: Red Deer, Alberta # Include the state/province as well!
- State: YourState
- Zip: YourZip/Postal
- Linkedin: https://www.linkedin.com/in/my-linkedin-profile
- Website: https://www.my-website.com # github/website is interchangable here
+ First Name: Shweta
+ Last Name: Mathapati
+ Phone Country Code: India (+91) # See linkedin for your country code, must be exact
+ Mobile Phone Number: 00000000000
+ Street address: 0 Ft road, Silver Layout
+ City: Bangalore # Include the state/province as well!
+ State: Karnataka
+ Zip: 000000
+ Linkedin: https://www.linkedin.com/in/mathshwe/
+ Website: https://www.dreamworksgoal.com # github/website is interchangable here
 
 # ------------ Additional parameters: USA employment crap ---------------
 eeo:
- gender: None
+ gender: Female
  race: None
  vetran: None
  disability: None
- citizenship: Canadian
+ citizenship: Indian
