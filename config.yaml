@@ -1,5 +1,10 @@
+<<<<<<< Updated upstream
 email: test@gmail.com
 password: testpassword
+=======
+email: shwetamath127@gmail.com
+password: login@1234567890
+>>>>>>> Stashed changes
 
 disableAntiLock: False
 
@@ -141,11 +146,19 @@ personalInfo:
  First Name: Shweta
  Last Name: Mathapati
  Phone Country Code: India (+91) # See linkedin for your country code, must be exact
+<<<<<<< Updated upstream
  Mobile Phone Number: 00000000000
  Street address: 0 Ft road, Silver Layout
  City: Bangalore # Include the state/province as well!
  State: Karnataka
  Zip: 000000
+=======
+ Mobile Phone Number: 6360244504
+ Street address: 100 Ft road, Silver Spring Layout
+ City: Kundalahalli,Bangalore # Include the state/province as well!
+ State: Karnataka
+ Zip: 560037
+>>>>>>> Stashed changes
  Linkedin: https://www.linkedin.com/in/mathshwe/
  Website: https://www.dreamworksgoal.com # github/website is interchangable here
 
@@ -155,4 +168,8 @@ eeo:
  race: None
  vetran: None
  disability: None
+<<<<<<< Updated upstream
  citizenship: Indian
+=======
+ citizenship: Indian
+>>>>>>> Stashed changes
